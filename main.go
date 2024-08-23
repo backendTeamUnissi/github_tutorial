@@ -14,6 +14,10 @@ func calculate_number(number int) int {
 
 //にっしー
 func check_number(number int) bool{
+	if number > 0 {
+        return true
+    }
+	return false
 	//もしnumberが正ならtrueを返す
 }
 

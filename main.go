@@ -10,6 +10,8 @@ const DISCOR_TOKEN = os.Getenv("DISCORD_TOKEN")
 func calculate_number(number int) int {
 	fmt.Println("Calculating...")
 
+	number *=2
+
 	//ここに計算処理を書く
 	return number
 }	

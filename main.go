@@ -36,5 +36,5 @@ func main() {
 
 	fmt.Println("hello");
 
-	aiueo
+	fmt.Println("aiueo");
 }

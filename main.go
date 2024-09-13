@@ -33,4 +33,6 @@ func main() {
 	else{
 		fmt.Println("Please input positive number")
 	}
+
+	fmt.Println("hello");
 }

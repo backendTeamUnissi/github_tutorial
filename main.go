@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 )
+const DISCORDID = os.Getenv("DISCORDID")
+const DISCOR_TOKEN = os.Getenv("DISCORD_TOKEN")
 
 //うに
 func calculate_number(number int) int {
